@@ -1,0 +1,15 @@
+h1{
+    /* border: 3px style blue; short hand syntax */
+    border-width: 3px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 10px;
+}
+p{
+    border-bottom: 3px solid red;
+    border-top: 3px solid yellow;
+    border-left: 3px dotted green;
+    border-right: 3px dotted blue;
+
+    border-radius: 5px;
+}

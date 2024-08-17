@@ -1,0 +1,64 @@
+<!-- form  -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+
+        <!-- THE ID OF INPUT MUST MATCH THE FOR ATTRIBUTEOF LABEL -->
+
+        <label for="username">username</label>
+        <input type="text" id="username" placeholder="spongebob" minlength="8" maxlength="15" required><br>
+
+        <label for="password">password</label>
+        <input type="password" id="password" placeholder="*****" minlength="8" maxlength="15" required><br>
+
+        <label for="email">email</label>
+        <input type="email" id = "email" placeholder="Squarepants@gmail.com" required><br>
+
+        <label for="phone">phone Number</label>
+        <input type="tel" id="phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+
+        <label for="bday">birthdate</label>
+        <input type="date" id="bday" required><br>
+
+        <label for="quantity">birthdate</label>
+        <input type="number" id="quantity" min="5" max="99" value="12" required><br>
+
+        <label for="title">title</label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Mrs.">Ms.</label>
+        <input type="radio" id="Mrs." value="Mrs." name="title">
+        <label for="PhD.">PhD.</label>
+        <input type="radio" id="PhD." value="PhD." name="title"><br>
+
+        <label for="payment"></label>
+        <select id="payment">
+            <option value="visa"></option>
+            <option value="mastercard">mastercard</option>
+            <option value="giftcard">giftcard</option>
+        </select><br>
+
+        <label for="subscribe">subscribe</label>
+        <input type="checkbox" id="subscribe"><br>
+
+        <label for="comment">comment</label>
+        <textarea id="comment" rows="3" cols="35"></textarea><br>
+
+        <label for="file">file</label>
+        <input type="file" id="file" accept="image/png,jpeg"><br>
+
+
+
+        <input type="reset"><br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>

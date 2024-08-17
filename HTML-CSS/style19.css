@@ -1,0 +1,45 @@
+@font-face {
+    src: url(Roboto_Mono/static/RobotoMono-Italic.ttf);
+    font-family: Roboto-Mono-Italic;
+}
+@font-face {
+    src: url(Roboto_Mono/static/RobotoMono-SemiBold.ttf);
+    font-family: RobotoMono-SemiBold;
+}
+
+
+
+
+/* h1{
+    font-family: sans-serif;
+}
+p{
+    font-family: "courier new";
+    font-size: 14px;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}   */
+
+
+
+
+
+
+
+
+
+
+
+/* fonts.google.com download tff files. */
+h1{
+    font-family: Roboto-Mono-Italic;
+}
+p{
+    font-family: RobotoMono-SemiBold ;
+    font-size: 14px;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}  
+
